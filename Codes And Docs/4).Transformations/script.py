@@ -1,6 +1,14 @@
 import cv2
 import numpy as np
 
+## There two types of transformations Affine and Non-Affine
+## In Affine transformations, the uniformity, the parallelness and the angles between the sides of the shape are preserved
+## For example, a square will still remain a square after an Affine transformation despite its area may increase or decrease or it gets rotated
+## Usually, affine transformations include rotating the shape or translating the shape
+
+## Now, in Non-Affine transformations, no uniformity is maintained in the shape
+## For example, a square might get converted to a trapezium or an irregular quadrilateral after a Non-Affine transformation
+
 sample_img = cv2.imread("../sample.png")
 
 # Extracting the shape of the image
