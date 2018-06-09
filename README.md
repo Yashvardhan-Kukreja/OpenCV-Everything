@@ -14,6 +14,6 @@
 <li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/tree/master/Codes%20And%20Docs/10).SharpeningImages/script.py">10). Sharpening Images (Reversing the blurs)</a></li>
 <li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/tree/master/Codes%20And%20Docs/11).ThresholdingImages/script.py">11). Thresholding Operations on images</a></li>
 <li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/tree/master/Codes%20And%20Docs/12).MorphologicalOps/script.py">12). Morphological Operations</a></li>
-<li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/tree/master/Codes%20And%20Docs/12).MorphologicalOps/script.py">13). Edge detection using different algos</a></li>
+<li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/blob/master/Codes%20And%20Docs/13).EdgeDetection/script.py">13). Edge detection using different algos</a></li>
 
 </ul>
