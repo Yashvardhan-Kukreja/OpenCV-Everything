@@ -21,7 +21,7 @@ def sketch(img):
     inv_edged_img = cv2.bitwise_not(edged_img)
 
     # Step 2).
-    factor = 125  # Higher the value of factor, more the edges are going to be lighter. So, a mediocre value like 125 will give a good shade of grey for the edges
+    factor = 125  # Higher the value of factor, more the edges are going to be lighter in color. So, a mediocre value like 125 will give a good shade of grey for the edges
     grey_arr = np.ones(grey_img.shape, dtype=np.uint8) * factor
     grey_edged_img = cv2.add(inv_edged_img, grey_arr)
 
