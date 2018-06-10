@@ -8,7 +8,9 @@ import numpy as np
 ## The app "CamScanner" does the same
 ## So, for doing this kind of thing, we apply perspective transformation on the original image
 
-## So, here, first of all, we take four coordinates of the original enclosing the region which want to be cropped out
+## So, here, first of all, we take four coordinates of the original enclosing the region which want to be cropped out. The variable coords_1
+## And then, we take four other coordinates "coords_2". The cropped out image will be enclosed under these coordinates "coords_2"
+## This is a bit tricky. So, it will be good to explore official documentation OpenCV python for this topic
 
 sample_img = cv2.imread("../sample.png")
 
