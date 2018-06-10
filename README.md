@@ -15,6 +15,6 @@
 <li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/tree/master/Codes%20And%20Docs/11).ThresholdingImages/script.py">11). Thresholding Operations on images</a></li>
 <li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/tree/master/Codes%20And%20Docs/12).MorphologicalOps/script.py">12). Morphological Operations</a></li>
 <li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/blob/master/Codes%20And%20Docs/13).EdgeDetection/script.py">13). Edge detection using different algorithms</a></li>
-<li><a href="">14).Perspective Transformations (CamScanner app like cropping operation)</a></li>
-<li><a href="">15). Live Sketch using Webcam</a></li>
+<li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/blob/master/Codes%20And%20Docs/14).PerspectiveTransformation/script.py">14).Perspective Transformations (CamScanner app like cropping operation)</a></li>
+<li><a href="https://github.com/Yashvardhan-Kukreja/OpenCV-Everything/blob/master/Codes%20And%20Docs/15).LiveSketchUsingWebcam/script.py">15). Live Sketch using Webcam</a></li>
 </ul>
