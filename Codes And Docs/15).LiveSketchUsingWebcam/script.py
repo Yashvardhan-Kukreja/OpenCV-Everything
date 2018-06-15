@@ -6,10 +6,10 @@ def sketch(img):
     grey_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     # Using Gaussian blur to smoothen the image, thereby leading to more accurate and less noisy edge detection
-    blurred_img = cv2.GaussianBlur(grey_img, (5, 5), 0)
+    blurred_img = cv2.GaussianBlur(grey_img, (7, 7), 0)
 
     # Detecting the edges
-    edged_img = cv2.Canny(blurred_img, 40, 100)  # An image with white colored edges and black background
+    edged_img = cv2.Canny(blurred_img, 40, 125)  # An image with white colored edges and black background
 
     # Now, we are going to give a sketch like effect by the following methods:
     # 1). We will invert edged_img so as to produce an image with black colored edges and white background
