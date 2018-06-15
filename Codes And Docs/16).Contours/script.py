@@ -25,7 +25,7 @@ cv2.destroyAllWindows()
 
 canny_edged_img = cv2.Canny(sample_img, threshold1=50, threshold2=255)
 canny_edged_img_1 = canny_edged_img
-cv2.imshow("Edged image after contours", canny_edged_img)
+cv2.imshow("Edged image", canny_edged_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
